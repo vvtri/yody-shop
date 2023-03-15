@@ -1,0 +1,15 @@
+{
+  "name": "yody-shop",
+  "version": "1.0.0",
+  "description": "<details>\r   <summary>Click to expand!</summary>",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"cd yody-backend && yarn dev\" \"cd yody-client && yarn dev\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
